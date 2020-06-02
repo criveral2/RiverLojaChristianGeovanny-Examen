@@ -40,9 +40,9 @@ public class Crud extends HttpServlet {
 		
 		
 		System.out.println("entro al servlet");
-		String editar = request.getParameter("EditTel");
-		String eliminar = request.getParameter("ElimTel");
-		String agregarTel = request.getParameter("agregarTel");
+		String editar = request.getParameter("titulo");
+		String eliminar = request.getParameter("autor");
+		String agregarTel = request.getParameter("numeroPag");
 		String url = "";
 		
 		
