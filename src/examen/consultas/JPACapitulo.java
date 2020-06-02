@@ -15,7 +15,7 @@ import examen.modelo.Libro;
 public class JPACapitulo extends JPAGenericDao<Libro, String> implements DaoCapitulo {
 
 	public JPACapitulo(Class<Libro> persisten) {
-		super(persisten);
+		super(persisten);,
 		// TODO Auto-generated constructor stub
 	}
 
